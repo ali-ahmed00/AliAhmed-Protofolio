@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALI AHMED Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ali Ahmed</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ali Ahmed</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile-pic.jpeg"
+          class="circle-image"
+          alt="Ali Ahmed profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ali Ahmed</h1>
+        <p class="section__text__p2">VR/AR Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+           
+        
+            onclick="window.open('https://www.linkedin.com/in/ali-ahmed-6394761aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app', '_blank', 'noopener,noreferrer')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+       
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                Games development instructor (Part TIME) <br />Virtual Reality
+                Development instructor (Part TIME) <br />
+                Quality control 2+ years
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Metaverse development BootCamp. <br />Chemical laboratories</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Passionate Game and VR Developer with a focus on creating
+              immersive experiences and innovative in VR AR and gameplay.
+              Skilled in Unity, and 3D modeling using Maya , I thrive on solving
+              technical challenges and bringing creative visions to life.
+              Committed to continuous growth, I aim to contribute to
+              cutting-edge projects in gaming or VR/AR while expanding my
+              expertise in emerging technologies. Eager to collaborate with
+              forward-thinking teams to push boundaries in interactive
+              storytelling and digital innovation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">VR And Game Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Unity</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C#</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>game design</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Animation</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>html</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java Script</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=934433d4d6852a761808019839114f76&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title">Boulevard Riyadh Experience</h2>
+            <div class="prgraph-container">
+              <p>Immersive dynamic VR journey through Boulevard Riyadh City, where users will explore and play interactive games set against the vibrant backdrop of Riyadh's iconic urban landscape.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=2afe7a73065e1fb25e14c343cf825203&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title">THE LINE</h2>
+            <div class="prgraph-container">
+              <p>Step into the visionary realm of THE LINE in NEOM, Saudi Arabia—explore and co-create within this revolutionary linear city, shaping a sustainable urban future through immersive engagement.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=7a468c1749d318a6657ddf422b961e6a&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title">VR Chemistry Lab</h2>
+            <div class="prgraph-container">
+              <p>Safely simulate high-risk reactions like acid-base neutralizations, eliminating exposure hazards  in a controlled virtual environment, ensuring error-free experimentation and reinforcing theoretical knowledge through hands-on, risk-free practice.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=fffd48dc6ee648446aed16608bc1d41f&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title">Lost in Desert</h2>
+            <div class="prgraph-container">
+              <p>Stranded in a desolate desert wasteland, your broken-down car becomes your last refuge. Survive relentless monster attacks, scavenge resources, and navigate treacherous dunes in this pulse-pounding VR survival game—where every decision could mean escape… or oblivion</p>
+            </div>
+          </div>
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=6d8ef0f9960c0f654150593c47fae4fc&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title">Gali: Wings of Defiance</h2>
+            <div class="prgraph-container">
+              <p>Soar through epic game as Gali, the fearless legend, battling ruthless forces to protect her village., unleash strategic firepower, and rewrite history in this action-packed tribute to courage and legacy.</p>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <video controls class="project-img" height="50%" width="50%" src="https://mydb.devhatem.dev/model/DownloadFileModel.php?auther=779f6547fcc7e9275da3c0fa2f153847321af9735c22758376475a3547a69dfa&guid=acaa2b7c874d0ef5de4a93c90bd4d876&preview=true">
+            </div>
+            <h2 class="experience-sub-title project-title"> AR Heritage</h2>
+            <div class="prgraph-container">
+              <p>Step into a living museum: Scan artifacts to watch history come alive in AR, exploring cultures and craftsmanship like never before
+                Highlights education, realism, and transformative tech.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a  target="_blank" rel="noopener noreferrer" href="mailto:ali.aljadahn@gmail.com">ali.aljadahn@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-ahmed-6394761aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; ALI AHMED. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
